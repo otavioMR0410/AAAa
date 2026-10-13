@@ -13,3 +13,5 @@ if __name__ == "__main__":
     sys.stderr.write("foo(): ")
     print(foo.__doc__, file=sys.stderr)
     print(foo())
+
+    print('Hello World')
